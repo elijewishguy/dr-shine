@@ -1,0 +1,43 @@
+.sidebar {
+  display: table-cell;
+  width: 35%;
+  padding: 0 16px;
+  border-left: 1px solid #d5d5d5;
+
+  .sidebar-inner {
+    padding: 0 32px;
+
+    .btn {
+      text-align: center;
+      margin: 16px auto;
+      font-size: 18px;
+    }
+
+    .btn:first-of-type, .btn:last-of-type {
+      margin : 0 auto;
+    }
+
+    .sidebar-info {
+      margin-top: 20px;
+
+      h1 {
+        margin: 0 0 8px 0;
+        color: #26afe0;
+        text-transform: uppercase;
+      }
+
+      ul {
+        columns: 2;
+        -moz-columns: 2;
+        -webkit-columns: 2;
+        column-gap: 16px;
+        -moz-column-gap: 16px;
+        -webkit-column-gap: 16px;
+        margin: 0 0 32px 24px;
+        padding: 0;
+      }
+    }
+
+  }
+
+}

@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+html {
+  font-size: 62.5%;
+  background: radial-gradient(ellipse at center, $base 0, $darken 80%, $back 100%);
+}
+body {
+  font: 300 13px/1.6 'Open Sans', Helvetica, Arial;
+  color: #2d201c;;
+  transition: all .4s .3s ease-in;
+}
+body,html{
+	min-height: 100vh;
+	overflow: visible;
+  // background-image: url('../../images/bg.jpg');
+  // background-position: 0px -150px;
+  // background-repeat: repeat-x;
+  // background-color: #000;
+}
