@@ -13,9 +13,6 @@
       nav: false
     });
 
-    $('#lightgallery').lightGallery();
-
-    $('.slider').slider();
 
   });
 

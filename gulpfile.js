@@ -41,7 +41,7 @@ gulp.task('css', function () {
 });
 
 gulp.task('imagemin',function () {
-  gulp.src('src/images/**/**')
+  gulp.src(['src/images/**/**', '!src/images/**/**.db'])
     .pipe(imagemin())
     .pipe(gulp.dest('app/images'))
 })
