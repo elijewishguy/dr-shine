@@ -3,6 +3,7 @@
   'use strict';
 
   $(function () {
+
     $('.carousel').owlCarousel({
       center: true,
       items: 1,
@@ -11,6 +12,11 @@
       autoplayTimeout: 4000,
       nav: false
     });
+
+    $('#lightgallery').lightGallery();
+
+    $('.slider').slider();
+
   });
 
 })(jQuery, window, document);
