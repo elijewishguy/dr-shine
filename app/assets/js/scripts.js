@@ -3,7 +3,11 @@
  * Project for Dr. Shine Marble and Restoration.
  * http://www.drshine.net
  * @author Eli Nahon
+<<<<<<< HEAD
  * @version 1.0
+=======
+ * @version 1.0.0
+>>>>>>> Trash
  * Copyright 2017.  licensed.
  */
 (function ($, window, document, undefined) {
