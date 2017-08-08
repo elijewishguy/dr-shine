@@ -499,6 +499,7 @@ textarea {
     display: none; }
 
 .sidebar {
+  vertical-align: top;
   display: table-cell;
   width: 35%;
   padding: 0 16px;
@@ -627,6 +628,12 @@ textarea {
             width: 32px; }
     .footer .footer-inner .footer-address {
       margin-bottom: 10px; }
+
+.ba-slider.preview {
+  width: 33%;
+  height: 200px;
+  overflow: hidden;
+  float: left; }
 
 .btn {
   background: #f9e09f;

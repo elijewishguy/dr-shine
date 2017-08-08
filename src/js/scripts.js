@@ -13,6 +13,7 @@
       nav: false
     });
 
+    $('.ba-slider').beforeAfter();
 
   });
 
